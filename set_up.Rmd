@@ -117,11 +117,17 @@ init_shinyCV(cv_path = my_path)
 
   # datas for project example
   temp_projects <- data.frame(
-    title = c("My project 1", "My_project 2",
-              "My project 3", "My project 4"),
-    position = c("Big Boss", "Slave", "Big Boss", "Slave"),
-    overview = rep("an amazing project", 4),
-    supervisors = rep("Jean Eude", 4),
+    title = c("Radiuz", 
+              "My_project 2",
+              "My project 3", 
+              "My project 4"),
+    position = c("Utrecht Data School Student", 
+                 "Slave", 
+                 "Big Boss", 
+                 "Slave"),
+    overview = c("In UDS I combined two courses on data processing, which included a project in a commercial setting. In service of the start-up Radiuz I made a data driven dashboard with as main function an achievement system together with my team. It took academic, technical and business skills. It resulted in a dynamic, data-driven dashboard. Feel free to take a look: https://clintdk5761174.shinyapps.io/Dashboard/ ", rep("blabla", 3)),
+    supervisors = c("Jochem Brons", 
+                    rep("Jean Eude", 3)),
     place = rep("Somewhere", 4)
   )
 
